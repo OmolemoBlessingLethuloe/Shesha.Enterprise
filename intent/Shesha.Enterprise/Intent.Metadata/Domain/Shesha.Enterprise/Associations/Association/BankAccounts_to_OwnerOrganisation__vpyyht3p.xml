@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="1b55770c-e303-4448-940a-443c00b2aa3f">
+  <sourceEnd id="c99c707e-05db-4940-b236-ed008ed0b470" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>BankAccounts</name>
+    <display>BankAccounts: BankAccount[*]</display>
+    <order>0</order>
+    <typeReference id="5a2e1c4c-ea9e-4790-ad24-99e74fa088fb">
+      <typeId>7b082750-6047-4fae-9fb5-0bb4a419485c</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="1b55770c-e303-4448-940a-443c00b2aa3f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>OwnerOrganisation</name>
+    <display>OwnerOrganisation: Organisation</display>
+    <order>9</order>
+    <typeReference id="f6ab9798-7e59-4b0d-b5b6-97d7384de3ab">
+      <typeId>03ebe928-d320-4e1f-990e-028fb41d9988</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

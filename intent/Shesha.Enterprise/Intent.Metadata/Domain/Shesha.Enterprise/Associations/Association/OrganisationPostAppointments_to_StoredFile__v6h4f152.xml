@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="bcac3b0c-8289-4f08-928a-5ddd01c0b882">
+  <sourceEnd id="c72bccd3-cf5c-4671-983d-9ab4bd9e75b2" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>OrganisationPostAppointments</name>
+    <display>OrganisationPostAppointments: OrganisationPostAppointment[*]</display>
+    <order>0</order>
+    <typeReference id="85e3b406-6d1b-4c80-9a20-1bd6137e7085">
+      <typeId>99877382-6544-4cec-9cf9-871339c2ff92</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="bcac3b0c-8289-4f08-928a-5ddd01c0b882" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>StoredFile</name>
+    <display>StoredFile: StoredFile</display>
+    <order>8</order>
+    <typeReference id="cad63470-64df-429d-a385-d83ee7b516ee">
+      <typeId>a84572a0-9354-4dc5-84c6-df6d496a7790</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

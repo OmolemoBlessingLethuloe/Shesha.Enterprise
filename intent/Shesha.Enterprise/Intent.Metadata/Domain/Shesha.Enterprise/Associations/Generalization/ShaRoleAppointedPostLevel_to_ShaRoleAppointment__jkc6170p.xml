@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="630c9cef-f0b2-4616-9fd4-f3dbdcdc052d">
+  <sourceEnd id="7522dca1-7e79-4dd1-9760-0bfdae085c66" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>ShaRoleAppointedPostLevel</name>
+    <display>ShaRoleAppointedPostLevel: ShaRoleAppointedPostLevel</display>
+    <order>0</order>
+    <typeReference id="0a54516d-365b-43e8-9466-ffa70b82a873">
+      <typeId>b4e123f0-45b7-4ec8-b40a-536f1fba6f55</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="630c9cef-f0b2-4616-9fd4-f3dbdcdc052d" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>ShaRoleAppointment</name>
+    <display>ShaRoleAppointment: ShaRoleAppointment</display>
+    <order>1</order>
+    <typeReference id="f029e32d-320e-41b7-ba78-e5b7187e1de3">
+      <typeId>ad8d9b2b-c9c9-405e-996c-8797800e4776</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>

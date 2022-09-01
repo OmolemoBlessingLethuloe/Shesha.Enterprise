@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="a01c2a18-1bb1-4e40-897c-bedc4450b5c4" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>HomeUrlRoutes</name>
+  <display>HomeUrlRoutes</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>3924fdab-ed6a-4f9f-aec2-a129147207d5</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

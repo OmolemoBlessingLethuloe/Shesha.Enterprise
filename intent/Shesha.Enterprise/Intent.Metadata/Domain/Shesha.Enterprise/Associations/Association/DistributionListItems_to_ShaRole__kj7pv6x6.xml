@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="c0358ffd-4466-41f6-bb36-86520963165f">
+  <sourceEnd id="280b1fd8-70a6-45bd-a10f-b5a1768eb079" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>DistributionListItems</name>
+    <display>DistributionListItems: DistributionListItem[*]</display>
+    <order>0</order>
+    <typeReference id="491594e9-79a7-41da-9779-2edbdb1525df">
+      <typeId>055c551c-deb2-429a-8790-45a891887327</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="c0358ffd-4466-41f6-bb36-86520963165f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>ShaRole</name>
+    <display>ShaRole: ShaRole</display>
+    <order>12</order>
+    <typeReference id="423f5132-6f0a-4d3a-85c1-c960ba79bc64">
+      <typeId>38a0400b-f2c2-411c-bb3a-ecf609fb73ec</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

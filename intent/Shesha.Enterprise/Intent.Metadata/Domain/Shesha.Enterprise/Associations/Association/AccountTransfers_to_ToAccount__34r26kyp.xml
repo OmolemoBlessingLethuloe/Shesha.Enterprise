@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="ba2d9f2d-9c4e-4b6a-869c-4bf5ffeaa472">
+  <sourceEnd id="c5e5abb0-805d-45af-b48a-35494e8f7fc2" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>AccountTransfers</name>
+    <display>AccountTransfers: AccountTransfer[*]</display>
+    <order>9</order>
+    <typeReference id="dd5d51af-2340-4964-9e99-f8da5a629fc4">
+      <typeId>d1c428c2-1235-400f-8e9b-dc9001ba8494</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="ba2d9f2d-9c4e-4b6a-869c-4bf5ffeaa472" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>ToAccount</name>
+    <display>ToAccount: FinancialAccount</display>
+    <order>11</order>
+    <typeReference id="522927fc-84ab-44a3-9367-19321dc0a77b">
+      <typeId>0dbdc96a-92f7-4840-b4b5-9ff35b0b4901</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

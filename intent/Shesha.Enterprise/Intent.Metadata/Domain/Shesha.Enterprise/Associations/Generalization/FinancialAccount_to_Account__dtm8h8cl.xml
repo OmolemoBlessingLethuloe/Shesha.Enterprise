@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="73ae96b9-7abe-49fa-8766-9bee1d084d03">
+  <sourceEnd id="0e975372-31dc-4760-ba44-82852bc70524" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>FinancialAccount</name>
+    <display>FinancialAccount: FinancialAccount</display>
+    <order>0</order>
+    <typeReference id="2190b4a8-d003-4cb6-ab22-f545b1764c26">
+      <typeId>0dbdc96a-92f7-4840-b4b5-9ff35b0b4901</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="73ae96b9-7abe-49fa-8766-9bee1d084d03" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>Account</name>
+    <display>Account: Account</display>
+    <order>5</order>
+    <typeReference id="9858faee-797b-44f1-8993-32ab12897aea">
+      <typeId>539d32ff-1c57-438f-8a19-3293a6e3e59d</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>

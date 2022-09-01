@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="bea56a9d-7916-4028-b432-7b3f94ef4fba">
+  <sourceEnd id="ed1e1094-1f75-44cf-9555-cc87bcb14dfe" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>HomeUrlRoutes</name>
+    <display>HomeUrlRoutes: HomeUrlRoute[*]</display>
+    <order>0</order>
+    <typeReference id="b050ea02-5e0a-424d-abd7-3b7393c2de5d">
+      <typeId>352395d4-04a4-451f-9e75-f64dbe9058cc</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="bea56a9d-7916-4028-b432-7b3f94ef4fba" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>App</name>
+    <display>App: FrontEndApp</display>
+    <order>3</order>
+    <typeReference id="be616114-8e7c-4da4-b580-c55e8a3bd245">
+      <typeId>252768b1-5d7a-4744-9956-321eff0fadc6</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

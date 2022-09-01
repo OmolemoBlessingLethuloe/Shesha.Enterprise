@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="c9654340-460f-4d77-b7d6-e7b2f8c7ec3b">
+  <sourceEnd id="3379a3d8-1d11-4b3b-a4cc-17ef1b01df36" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>PaymentInByEFTS</name>
+    <display>PaymentInByEFTS: PaymentInByEFT[*]</display>
+    <order>1</order>
+    <typeReference id="05465f2f-9e36-4d24-b1e0-d652c44c6fd0">
+      <typeId>dedb4ed2-4e1a-47a8-9fbc-6efdea93255a</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="c9654340-460f-4d77-b7d6-e7b2f8c7ec3b" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>ProofOfPayment</name>
+    <display>ProofOfPayment: StoredFile</display>
+    <order>0</order>
+    <typeReference id="cbe46578-0b81-4107-bec2-57860f10fe5b">
+      <typeId>a84572a0-9354-4dc5-84c6-df6d496a7790</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="10573c07-bb4a-4f86-b0af-0feaa48fb118" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>BankTransactionType</name>
+  <display>BankTransactionType</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>fafb46d1-481c-48fc-bc30-2474aa85b020</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="d5e8dd12-b371-4fb6-b1ff-b403005b519b" name="Enum Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="3cacdd96-327f-46df-abdd-c2759c5106fa" display="DataDriven" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="8af0ba2e-a68b-473e-b79c-0e8146cce414" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Bank Charge</comment>
+      <name>BankCharge</name>
+      <display>BankCharge = 1</display>
+      <isAbstract>false</isAbstract>
+      <value>1</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10573c07-bb4a-4f86-b0af-0feaa48fb118</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="bd25b67f-eed0-45ae-a3f2-c1ba25bae142" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Client Payment By Stitch</comment>
+      <name>ClientPaymentByStitch</name>
+      <display>ClientPaymentByStitch = 2</display>
+      <isAbstract>false</isAbstract>
+      <value>2</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10573c07-bb4a-4f86-b0af-0feaa48fb118</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="b37a47d5-9b11-45c4-8233-7bc3dfbbf0df" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Client Payment By EFT</comment>
+      <name>ClientPaymentByEFT</name>
+      <display>ClientPaymentByEFT = 3</display>
+      <isAbstract>false</isAbstract>
+      <value>3</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10573c07-bb4a-4f86-b0af-0feaa48fb118</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="ff7d9d61-5373-43de-88ec-a52a4820d8c3" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Allocation Not Required</comment>
+      <name>AllocationNotRequired</name>
+      <display>AllocationNotRequired = 4</display>
+      <isAbstract>false</isAbstract>
+      <value>4</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>10573c07-bb4a-4f86-b0af-0feaa48fb118</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

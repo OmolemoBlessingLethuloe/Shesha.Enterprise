@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="091f4a6f-0f76-454e-b0e9-66fc8d797326">
+  <sourceEnd id="5877d42d-be45-449b-8ca8-81661bbea820" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>ShaRoleAppointedPostLevels</name>
+    <display>ShaRoleAppointedPostLevels: ShaRoleAppointedPostLevel[*]</display>
+    <order>9</order>
+    <typeReference id="4d7717aa-3707-486a-934e-85fb7200fd8a">
+      <typeId>b4e123f0-45b7-4ec8-b40a-536f1fba6f55</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="091f4a6f-0f76-454e-b0e9-66fc8d797326" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>OrganisationPostLevel</name>
+    <display>OrganisationPostLevel: OrganisationPostLevel</display>
+    <order>0</order>
+    <typeReference id="557ecfaf-c836-4e52-833d-2ab7bec93c20">
+      <typeId>0fd1bd96-616c-4684-aacd-a12236047f9a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

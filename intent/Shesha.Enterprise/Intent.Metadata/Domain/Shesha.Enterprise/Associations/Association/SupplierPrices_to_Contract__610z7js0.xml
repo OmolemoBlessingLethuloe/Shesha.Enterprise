@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a2da4b57-0ae6-43fe-a5c0-ffd3720f4a61">
+  <sourceEnd id="8184a829-47dd-4e90-9280-d6a872cbddca" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>SupplierPrices</name>
+    <display>SupplierPrices: SupplierPrice[*]</display>
+    <order>12</order>
+    <typeReference id="82b6796d-2414-4b28-8283-c637d4b2cc2a">
+      <typeId>2ec734af-6f81-40d3-a879-d446ef57c39f</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="a2da4b57-0ae6-43fe-a5c0-ffd3720f4a61" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Contract</name>
+    <display>Contract: Contract</display>
+    <order>3</order>
+    <typeReference id="16b84a5c-1d9c-478b-9314-331105598768">
+      <typeId>e2f07137-c7a9-49b5-862d-fd8fd052851e</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

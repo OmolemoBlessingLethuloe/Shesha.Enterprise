@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="5c0ea033-91f8-4a35-8935-8e2952e73d9e">
+  <sourceEnd id="7adbfb3e-1068-47e7-b64d-c74ab3808791" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>CheckListItemSelections</name>
+    <display>CheckListItemSelections: CheckListItemSelection[*]</display>
+    <order>11</order>
+    <typeReference id="50ba05d3-6c6b-4750-97ac-7f0b82e4af13">
+      <typeId>f186f215-737a-4a63-88c0-2d67998fdfd5</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="5c0ea033-91f8-4a35-8935-8e2952e73d9e" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>CheckListItem</name>
+    <display>CheckListItem: CheckListItem</display>
+    <order>2</order>
+    <typeReference id="8868e615-ab85-40a7-aa1b-90f2d07e9cb8">
+      <typeId>90b6707d-80d8-402e-80af-b124862bff1a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

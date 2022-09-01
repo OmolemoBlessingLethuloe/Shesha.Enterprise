@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="0f112cc8-f775-4526-84e2-5d32dc8277a1" type="Folder" typeId="4d95d53a-8855-4f35-aa82-e312643f5c5f">
+  <name>Payments</name>
+  <display>Payments</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-by-name</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>ac4fb133-def4-40f1-9efe-9f5dc2cb610f</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes />
+  <metadata />
+  <childElements />
+</class>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="725e464b-3ffb-45ca-9571-b300498c0bf0" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>Bank</name>
+  <display>Bank</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>fafb46d1-481c-48fc-bc30-2474aa85b020</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="d5e8dd12-b371-4fb6-b1ff-b403005b519b" name="Enum Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="3cacdd96-327f-46df-abdd-c2759c5106fa" display="DataDriven" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="1e7da8f4-9597-4205-a5d5-2f900dcdf666" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>First National Bank</comment>
+      <name>FNB</name>
+      <display>FNB = 1</display>
+      <isAbstract>false</isAbstract>
+      <value>1</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>725e464b-3ffb-45ca-9571-b300498c0bf0</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="c9420be1-e117-4deb-a233-e08b65477fcd" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>ABSA</comment>
+      <name>ABSA</name>
+      <display>ABSA = 2</display>
+      <isAbstract>false</isAbstract>
+      <value>2</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>725e464b-3ffb-45ca-9571-b300498c0bf0</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="26752e29-5496-4a17-a859-da9d5830dc0e" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Standard Bank</comment>
+      <name>StandardBank</name>
+      <display>StandardBank = 3</display>
+      <isAbstract>false</isAbstract>
+      <value>3</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>725e464b-3ffb-45ca-9571-b300498c0bf0</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="9f011c81-a652-41d2-9241-01eea4479867">
+  <sourceEnd id="506f6f0c-f781-4e56-b4e3-19c82069b33e" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>BankAccounts</name>
+    <display>BankAccounts: BankAccount[*]</display>
+    <order>4</order>
+    <typeReference id="168c3bc9-ad75-403b-9b24-99f35d27b7c8">
+      <typeId>7b082750-6047-4fae-9fb5-0bb4a419485c</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="9f011c81-a652-41d2-9241-01eea4479867" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Currency</name>
+    <display>Currency: Currency</display>
+    <order>10</order>
+    <typeReference id="e2cb4016-71bd-46f3-b886-44ccbb4772f3">
+      <typeId>33ffebcc-a8d7-4516-a081-61ea38ec0666</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

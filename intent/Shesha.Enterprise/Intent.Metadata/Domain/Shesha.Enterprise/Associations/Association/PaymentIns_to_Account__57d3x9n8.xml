@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="b1a7cb4b-6db4-47d2-85eb-d3539c03e552">
+  <sourceEnd id="7b5f8a16-7169-454a-8615-ca0be43450c3" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>PaymentIns</name>
+    <display>PaymentIns: PaymentIn[*]</display>
+    <order>6</order>
+    <typeReference id="4de642ef-26b9-4faf-b523-8873581d760a">
+      <typeId>9a5b929a-ed4c-4f35-a49a-c5d227b2cdd0</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="b1a7cb4b-6db4-47d2-85eb-d3539c03e552" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Account</name>
+    <display>Account: FinancialAccount</display>
+    <order>3</order>
+    <typeReference id="4da6640c-cbb2-4054-adfb-374f53e86759">
+      <typeId>0dbdc96a-92f7-4840-b4b5-9ff35b0b4901</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

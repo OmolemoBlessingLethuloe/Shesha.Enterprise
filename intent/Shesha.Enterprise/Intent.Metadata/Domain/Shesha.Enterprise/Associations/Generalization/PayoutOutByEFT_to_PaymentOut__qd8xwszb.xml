@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="a114740a-c809-4a0c-8ea8-d03548de33d0">
+  <sourceEnd id="77a6393c-3955-421e-8c15-0f607c743f2c" type="Generalization Source End" typeId="8190bf43-222c-4b53-8a44-14626efe3574">
+    <name>PayoutOutByEFT</name>
+    <display>PayoutOutByEFT: PayoutOutByEFT</display>
+    <order>4</order>
+    <typeReference id="501c3a1e-2b1d-4ea0-be5b-211abc4c5cb8">
+      <typeId>aff755ff-f937-452d-b8c5-cbb21cad7fcb</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="a114740a-c809-4a0c-8ea8-d03548de33d0" type="Generalization Target End" typeId="4686cc1d-b4d8-4b99-b45b-f77bd5496946">
+    <name>PaymentOut</name>
+    <display>PaymentOut: PaymentOut</display>
+    <order>1</order>
+    <typeReference id="ba2b1b66-9e99-43dd-8353-1aceb111eff8">
+      <typeId>d27d1653-d229-4c9c-a0b3-99d9c47bc024</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Generalization</associationType>
+  <associationTypeId>5de35973-3ac7-4e65-b48c-385605aec561</associationTypeId>
+  <stereotypes />
+</association>

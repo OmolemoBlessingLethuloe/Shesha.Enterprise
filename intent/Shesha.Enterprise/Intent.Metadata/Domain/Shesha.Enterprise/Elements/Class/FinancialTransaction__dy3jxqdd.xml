@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="020238bb-1376-4c17-acc6-363683d03744" type="Class" typeId="04e12b51-ed12-42a3-9667-a6aa81bb6d10">
+  <name>FinancialTransaction</name>
+  <display>FinancialTransaction</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>ac4fb133-def4-40f1-9efe-9f5dc2cb610f</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="64a1e48f-80e9-49f7-8d32-c048fd05ef59" name="Entity Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="83554d31-64cf-4a73-8566-8db8f1eea802" display="Type Short Alias" isActive="true" />
+        <property name="f7c6c2ea-a7d8-482d-895d-951fa560f2b8" display="Friendly Name" value="" isActive="true" />
+        <property name="80ce011d-22b1-44dd-b24e-bc77d388b26e" display="Generate Application Service" value="true" isActive="true" />
+        <property name="215f896f-cf59-422e-9f14-9c12a925f538" display="Application Service Name" isActive="true" />
+        <property name="08d757f1-f64d-4f48-b798-244f443172c9" display="Status" value="Req. Ready" isActive="true" />
+        <property name="53223936-339e-4794-9e64-9854b0e38651" display="EntityType" value="FullAuditedEntity&lt;Guid&gt;" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="98d1b483-acc3-4940-9ae4-24485f6da85f" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Amount</name>
+      <display>Amount: decimal?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="7d83e178-52a3-4f36-96cc-b2ec5b0a1f5d">
+        <typeId>675c7b84-997a-44e0-82b9-cd724c07c9e6</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="9098548b-803b-4d22-9f80-67c80cf99d13" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>TransactionDate</name>
+      <display>TransactionDate: datetime?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="f27b316d-246b-4e85-8a5c-9b8d8884ebc7">
+        <typeId>a4107c29-7851-4121-9416-cf1236908f1e</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3ebd0a90-db60-4248-a3f9-64e30eab4bb2" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>RunningBalance</name>
+      <display>RunningBalance: decimal?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="f73d3f91-a3a7-4520-9daa-d8f1110dd12b">
+        <typeId>675c7b84-997a-44e0-82b9-cd724c07c9e6</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="fb02031c-939c-4e65-9054-802ea821a8d7" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>TransactionType</name>
+      <display>TransactionType: TransactionType?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="511b9abf-60d8-487d-a967-d2416f8acce1">
+        <typeId>92da5b3f-4026-472b-ba48-b7a54aac1088</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Shesha.Enterprise</typePackageName>
+        <typePackageId>38d6cd92-d5cb-4033-8059-e2f3c56e1305</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3f483cdb-f3d0-4523-a2cd-4b05a7fcfee2" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Reference</name>
+      <display>Reference: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="85b69153-76af-4006-9424-f036bc2ee32d">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="false" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="aa286f7a-7a73-4dab-bb94-b17420ae632e" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Description</name>
+      <display>Description: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="4b23434d-e927-4b77-b910-a06bebc32128">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="ace0d96f-86c0-4b10-8427-b74f19b69f18" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>SourceEntityId</name>
+      <display>SourceEntityId: guid?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="cad638c0-ca9f-4d81-a1ff-884483d4a5dd">
+        <typeId>6b649125-18ea-48fd-a6ba-0bfff0d8f488</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1cc2f3e0-70ac-4a84-aeb1-ea46298b9933" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>SourceEntityType</name>
+      <display>SourceEntityType: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="d69f403d-13be-4c61-993c-7e25055a75b9">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="7b22cbef-96de-4e31-a5e7-c408f12c648a" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>Status</name>
+      <display>Status: TransactionStatus?</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="07176f41-a465-414a-98aa-52ec8bec1762">
+        <typeId>31619765-7a0a-47f3-926e-f495dde636a8</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>true</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Shesha.Enterprise</typePackageName>
+        <typePackageId>38d6cd92-d5cb-4033-8059-e2f3c56e1305</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="true" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="63f5f2ee-fc61-41f9-9167-5da76edc0bbd" type="Attribute" typeId="0090fb93-483e-41af-a11d-5ad2dc796adf">
+      <name>CancellationReason</name>
+      <display>CancellationReason: string</display>
+      <isAbstract>false</isAbstract>
+      <genericTypes />
+      <typeReference id="47e4dff2-6388-47db-8f06-cad587fd1a3c">
+        <typeId>d384db9c-a279-45e1-801e-e4e8099625f2</typeId>
+        <isNavigable>true</isNavigable>
+        <isNullable>false</isNullable>
+        <isCollection>false</isCollection>
+        <isRequired>true</isRequired>
+        <typePackageName>Intent.Common.Types</typePackageName>
+        <typePackageId>870ad967-cbd4-4ea9-b86d-9c3a5d55ea67</typePackageId>
+        <stereotypes />
+        <genericTypeParameters />
+      </typeReference>
+      <isMapped>false</isMapped>
+      <parentFolderId>020238bb-1376-4c17-acc6-363683d03744</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="34163c46-790f-4b68-a3b7-3b92b5c78885" name="Attribute Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="c0114451-8a23-46c3-b4b5-b95f696d885e" display="IsRequired" value="false" isActive="true" />
+            <property name="3db8e495-52c6-452a-8a44-91a9213947a7" display="LogChanges" value="false" isActive="true" />
+            <property name="cd14ac60-5753-44fa-8be9-4228975552b4" display="ReadOnly" value="false" isActive="true" />
+            <property name="4c7bf420-18ea-4fa8-aa9b-c63fb9a07848" display="DisplayName" isActive="true" />
+            <property name="3cc97725-8916-4c85-9c65-cd5ec3a0bd66" display="Status" value="Req. Ready" isActive="true" />
+            <property name="764a44c9-4e2b-4486-bd91-f3b412d32d9f" display="CustomRegExValidation" isActive="true" />
+            <property name="d42cd351-3f91-4833-a43e-7d681ab43391" display="CustomValidationMessage" isActive="true" />
+            <property name="38112123-4582-4386-86cf-8b693de6d84d" display="Setter Access" isActive="true" />
+            <property name="34654eff-761e-4a7c-b216-03f99206c6b5" display="Getter Access" isActive="true" />
+            <property name="f32cf162-899a-4749-8337-ed92720de339" display="Datatype" isActive="true" />
+            <property name="5949c3e2-2684-4735-9297-0d0916a43372" display="DisplayFormat" isActive="true" />
+            <property name="3d86a125-5d45-4d2b-b6db-78f45dd1841a" display="EntityDisplayName" value="false" isActive="true" />
+            <property name="23cab708-64b3-4837-86c2-dc259965dd19" display="CanBeNull" value="false" isActive="true" />
+            <property name="b3efa639-1807-42ce-906e-297936880ac0" display="AllowInherited" value="false" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

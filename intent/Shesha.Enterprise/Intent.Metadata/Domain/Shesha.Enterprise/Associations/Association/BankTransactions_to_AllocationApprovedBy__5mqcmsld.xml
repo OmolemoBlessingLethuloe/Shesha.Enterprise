@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="62018d51-a813-4619-8f87-744ccc18fa2a">
+  <sourceEnd id="ab687b7a-411f-4091-863e-2343dadfd111" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>BankTransactions</name>
+    <display>BankTransactions: BankTransaction[*]</display>
+    <order>3</order>
+    <typeReference id="bc9e5a58-9575-45a4-8c86-69d1d3bcf617">
+      <typeId>38c91aff-afd1-4395-bf4b-19da32c4b4d9</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="62018d51-a813-4619-8f87-744ccc18fa2a" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>AllocationApprovedBy</name>
+    <display>AllocationApprovedBy: Person</display>
+    <order>13</order>
+    <typeReference id="9d403c62-5c36-4710-b41e-8b69895c8570">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

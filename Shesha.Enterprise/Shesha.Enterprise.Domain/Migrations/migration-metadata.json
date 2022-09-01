@@ -1,0 +1,2659 @@
+[
+  {
+    "Id": "33ffebcc-a8d7-4516-a081-61ea38ec0666",
+    "ClassName": "Currency",
+    "TableName": "entpr_Currencies",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "8c88e48b-b286-4814-8c18-4d64c7775103",
+        "Name": "Code",
+        "TableName": "Currency",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "4659ce28-a12a-469c-945f-15783629bd1f",
+        "Name": "FullName",
+        "TableName": "Currency",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "cd11cd43-5630-44b8-9974-9b00f2ed602a",
+        "Name": "Symbol",
+        "TableName": "Currency",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "23c827f1-ea07-4878-89e2-154c8fb2aaf4",
+    "ClassName": "LogonMessageAuditItem",
+    "TableName": "entpr_LogonMessageAuditItems",
+    "KeyType": "guid",
+    "EntityType": "CreationAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "cda044aa-0077-418f-ac5a-3cf4277b9b97",
+        "Name": "DontShowAgain",
+        "TableName": "LogonMessageAuditItem",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "9a9505db-487c-4b8c-95c6-23064b8d9ca6",
+        "Name": "LogonMessageId",
+        "MasterTable": "entpr_LogonMessages"
+      },
+      {
+        "Id": "ac794fdd-8302-4866-b344-520e8cf84cf2",
+        "Name": "PersonId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "b3198063-9644-499b-af26-58e9f97f06b8",
+    "ClassName": "LogonMessage",
+    "TableName": "entpr_LogonMessages",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "41120f65-9b6d-483c-92b1-f63a8d523992",
+        "Name": "Description",
+        "TableName": "LogonMessage",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 500,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "15ebf01a-c1ee-4288-83d4-b77e935af186",
+        "Name": "Content",
+        "TableName": "LogonMessage",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "cc39b3ca-657c-420b-a686-ae87c2cb0a88",
+        "Name": "PublicationStartDate",
+        "TableName": "LogonMessage",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "4424c443-b778-49ba-ad97-a306621390e4",
+        "Name": "PublicationEndDate",
+        "TableName": "LogonMessage",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "f760298e-2e7d-46b6-aca8-f33168c356b3",
+        "Name": "Visibility",
+        "TableName": "LogonMessage",
+        "TypeName": "LogonMessageVisibility",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "75a88ef6-24ee-4a52-9276-f14ec609282f",
+        "Name": "IsActive",
+        "TableName": "LogonMessage",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "56e8b854-def6-4c8d-b6dd-fc877c667ae9",
+        "Name": "TenantId",
+        "TableName": "LogonMessage",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "087ae241-b4d0-4d28-9b9d-1b5ef160980f",
+        "Name": "DistributionListId",
+        "MasterTable": "entpr_DistributionLists"
+      }
+    ]
+  },
+  {
+    "Id": "33528bf3-3997-40cd-b1ec-08e4aeb680f0",
+    "ClassName": "Period",
+    "TableName": "entpr_Periods",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "d02c64f5-8943-492f-8dc8-51b4d20627ca",
+        "Name": "Name",
+        "TableName": "Period",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 1000,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "960b8a69-3c7d-42fb-a7a6-7f637cff4801",
+        "Name": "ShortName",
+        "TableName": "Period",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "04846baf-90f3-4123-b1bf-0878e3c6476f",
+        "Name": "PeriodStart",
+        "TableName": "Period",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "6bc5d8f3-e381-4144-a87e-9f40b6ad4564",
+        "Name": "PeriodEnd",
+        "TableName": "Period",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "027077fd-c8ef-4bf6-a90d-a52223e97885",
+        "Name": "PeriodType",
+        "TableName": "Period",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "2a038a97-76cd-4494-b77a-ccb36c73564f",
+        "Name": "ParentPeriodId",
+        "MasterTable": "entpr_Periods"
+      }
+    ]
+  },
+  {
+    "Id": "b4e123f0-45b7-4ec8-b40a-536f1fba6f55",
+    "ClassName": "ShaRoleAppointedPostLevel",
+    "TableName": "entpr_ShaRoleAppointedPostLevels",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": [
+      {
+        "Id": "091f4a6f-0f76-454e-b0e9-66fc8d797326",
+        "Name": "OrganisationPostLevelId",
+        "MasterTable": "entpr_OrganisationPostLevels"
+      }
+    ]
+  },
+  {
+    "Id": "f13be89f-e729-4689-811f-437be4b4bd97",
+    "ClassName": "ShaRoleAppointedPost",
+    "TableName": "entpr_ShaRoleAppointedPosts",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": [
+      {
+        "Id": "b2b62d27-7d38-4bd1-ab08-e90fbd3c2c23",
+        "Name": "OrganisationPostId",
+        "MasterTable": "entpr_OrganisationPosts"
+      }
+    ]
+  },
+  {
+    "Id": "194effac-b876-4b55-894d-e3a592bc68b3",
+    "ClassName": "TaxRate",
+    "TableName": "entpr_TaxRates",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "82836290-a765-4d64-87c9-99cc0330d45f",
+        "Name": "Name",
+        "TableName": "TaxRate",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "081e08ce-775d-4717-8360-098e65b8f666",
+        "Name": "Description",
+        "TableName": "TaxRate",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "306b3f39-a9b6-48b3-ad05-c0673224faa1",
+        "Name": "Rate",
+        "TableName": "TaxRate",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "d1c428c2-1235-400f-8e9b-dc9001ba8494",
+    "ClassName": "AccountTransfer",
+    "TableName": "entpr_AccountTransfers",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "a074d8fb-d12b-4d1e-bd6d-7c899238efbb",
+        "Name": "FromReference",
+        "TableName": "AccountTransfer",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "4c27869b-ce3c-4314-912e-5ef7056f2c61",
+        "Name": "ToReference",
+        "TableName": "AccountTransfer",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "d702c5e5-b9cc-4ad3-9095-c42691c67225",
+        "Name": "Amount",
+        "TableName": "AccountTransfer",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "752a514c-bdba-4fa2-82b6-a9bc35934902",
+        "Name": "Status",
+        "TableName": "AccountTransfer",
+        "TypeName": "TransactionStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "e6c1ebe5-ddbe-408d-b171-970d4828a3a5",
+        "Name": "DateCompleted",
+        "TableName": "AccountTransfer",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "143e9dd0-96d5-439b-8663-904dbd66614e",
+        "Name": "AdditionalInfoJson",
+        "TableName": "AccountTransfer",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "1c079aa9-adf7-4259-8c0e-f73cc0a2c21a",
+        "Name": "RejectionReason",
+        "TableName": "AccountTransfer",
+        "TypeName": "RejectionReason",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "6fd5fee3-7097-4110-99cf-7a1470cb41da",
+        "Name": "TransferReason",
+        "TableName": "AccountTransfer",
+        "TypeName": "TransferReason",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "d6842082-c9c9-4cc3-ae35-d46139e717f3",
+        "Name": "TransferMethod",
+        "TableName": "AccountTransfer",
+        "TypeName": "TransferMethod",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "f7fce9b0-1626-488a-b5db-97436d355214",
+        "Name": "SignedRequest",
+        "TableName": "AccountTransfer",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "12f37fdd-3e3d-4c24-83f9-07840adb4402",
+        "Name": "FromAccountEntityId",
+        "MasterTable": "entpr_FinancialAccounts"
+      },
+      {
+        "Id": "ba2d9f2d-9c4e-4b6a-869c-4bf5ffeaa472",
+        "Name": "ToAccountId",
+        "MasterTable": "entpr_FinancialAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "539d32ff-1c57-438f-8a19-3293a6e3e59d",
+    "ClassName": "Account",
+    "TableName": "entpr_Accounts",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "0dbdc96a-92f7-4840-b4b5-9ff35b0b4901",
+    "ClassName": "FinancialAccount",
+    "TableName": "entpr_FinancialAccounts",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "3179f408-9234-423a-a930-a04df87f759d",
+        "Name": "Balance",
+        "TableName": "FinancialAccount",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "19927d30-d555-407d-96a7-6a163c77cb1c",
+        "Name": "CreditLimit",
+        "TableName": "FinancialAccount",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "158e7613-1d71-47e7-9593-fb373c7999c3",
+        "Name": "LastTransactionProcessedDate",
+        "TableName": "FinancialAccount",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "a1a98680-3d31-4555-b554-8d35bb0ecbd4",
+        "Name": "PendingBalance",
+        "TableName": "FinancialAccount",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "dc7e01c6-4cea-4d50-8a52-ba45c5b8415a",
+        "Name": "CurrencyId",
+        "MasterTable": "entpr_Currencies"
+      }
+    ]
+  },
+  {
+    "Id": "020238bb-1376-4c17-acc6-363683d03744",
+    "ClassName": "FinancialTransaction",
+    "TableName": "entpr_FinancialTransactions",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "98d1b483-acc3-4940-9ae4-24485f6da85f",
+        "Name": "Amount",
+        "TableName": "FinancialTransaction",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "9098548b-803b-4d22-9f80-67c80cf99d13",
+        "Name": "TransactionDate",
+        "TableName": "FinancialTransaction",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "3ebd0a90-db60-4248-a3f9-64e30eab4bb2",
+        "Name": "RunningBalance",
+        "TableName": "FinancialTransaction",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "fb02031c-939c-4e65-9054-802ea821a8d7",
+        "Name": "TransactionType",
+        "TableName": "FinancialTransaction",
+        "TypeName": "TransactionType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "3f483cdb-f3d0-4523-a2cd-4b05a7fcfee2",
+        "Name": "Reference",
+        "TableName": "FinancialTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "aa286f7a-7a73-4dab-bb94-b17420ae632e",
+        "Name": "Description",
+        "TableName": "FinancialTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ace0d96f-86c0-4b10-8427-b74f19b69f18",
+        "Name": "SourceEntityId",
+        "TableName": "FinancialTransaction",
+        "TypeName": "guid",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "1cc2f3e0-70ac-4a84-aeb1-ea46298b9933",
+        "Name": "SourceEntityType",
+        "TableName": "FinancialTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7b22cbef-96de-4e31-a5e7-c408f12c648a",
+        "Name": "Status",
+        "TableName": "FinancialTransaction",
+        "TypeName": "TransactionStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "63f5f2ee-fc61-41f9-9167-5da76edc0bbd",
+        "Name": "CancellationReason",
+        "TableName": "FinancialTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "29136ad9-4a04-4329-8565-3552c84499df",
+        "Name": "AccountId",
+        "MasterTable": "entpr_FinancialAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "dedb4ed2-4e1a-47a8-9fbc-6efdea93255a",
+    "ClassName": "PaymentInByEFT",
+    "TableName": "entpr_PaymentInByEFTs",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": [
+      {
+        "Id": "c9654340-460f-4d77-b7d6-e7b2f8c7ec3b",
+        "Name": "ProofOfPaymentId",
+        "MasterTable": "Core_StoredFiles"
+      },
+      {
+        "Id": "d0c63d78-9b04-4a0b-a903-c25ecf07f8ca",
+        "Name": "BankTransactionId",
+        "MasterTable": "entpr_BankTransactions"
+      }
+    ]
+  },
+  {
+    "Id": "9a5b929a-ed4c-4f35-a49a-c5d227b2cdd0",
+    "ClassName": "PaymentIn",
+    "TableName": "entpr_PaymentIns",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "69b29301-7a10-4c03-a2e2-5b6614611504",
+        "Name": "PaymentDate",
+        "TableName": "PaymentIn",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "fe1bbb49-6d2b-4209-a9c8-5386aec24463",
+        "Name": "Amount",
+        "TableName": "PaymentIn",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "c74f3ad8-04c6-427e-be05-9f8edbe93886",
+        "Name": "PaymentMethodReference",
+        "TableName": "PaymentIn",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "b1a7cb4b-6db4-47d2-85eb-d3539c03e552",
+        "Name": "AccountId",
+        "MasterTable": "entpr_FinancialAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "d27d1653-d229-4c9c-a0b3-99d9c47bc024",
+    "ClassName": "PaymentOut",
+    "TableName": "entpr_PaymentOuts",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "32bc77ba-2f15-41b2-ba98-2ee85e19d1d0",
+        "Name": "PaymentDate",
+        "TableName": "PaymentOut",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "dd43912d-0cf9-4047-a077-0529957ed268",
+        "Name": "Amount",
+        "TableName": "PaymentOut",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "4bf21388-ce11-4c5d-9936-ffdd941d48bf",
+        "Name": "PaymentMethodReference",
+        "TableName": "PaymentOut",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "e6055d02-42e7-473b-9f3b-897d5cb8a621",
+        "Name": "AccountId",
+        "MasterTable": "entpr_FinancialAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "aff755ff-f937-452d-b8c5-cbb21cad7fcb",
+    "ClassName": "PayoutOutByEFT",
+    "TableName": "entpr_PayoutOutByEFTs",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": [
+      {
+        "Id": "ae68cc18-7c4a-45ad-8f68-3dfd680e9b91",
+        "Name": "BankTransactionId",
+        "MasterTable": "entpr_BankTransactions"
+      }
+    ]
+  },
+  {
+    "Id": "7b082750-6047-4fae-9fb5-0bb4a419485c",
+    "ClassName": "BankAccount",
+    "TableName": "entpr_BankAccounts",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "41e0f111-f4f9-4e11-889d-05707a0fb8d4",
+        "Name": "AccountName",
+        "TableName": "BankAccount",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ff3220ee-ec18-434d-9bda-1c6b3f9ec844",
+        "Name": "Bank",
+        "TableName": "BankAccount",
+        "TypeName": "Bank",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "814d5562-96b9-4dde-8e67-81aef036da6f",
+        "Name": "BranchName",
+        "TableName": "BankAccount",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "4753f858-3d10-4406-9427-bd85a5065288",
+        "Name": "BranchCode",
+        "TableName": "BankAccount",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "53bdffe8-0c50-45b5-90d6-ae3918e47e70",
+        "Name": "AccountType",
+        "TableName": "BankAccount",
+        "TypeName": "AccountType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "88dffd1e-3664-45e0-88b1-e8ee71d9d93c",
+        "Name": "AccountNumber",
+        "TableName": "BankAccount",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0b6a8cc4-7ded-4dc4-a37c-779c60cff2cc",
+        "Name": "Status",
+        "TableName": "BankAccount",
+        "TypeName": "BankAccountStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "e082119f-a8e0-4915-bfeb-c925d8b7e04f",
+        "Name": "CurrentBalance",
+        "TableName": "BankAccount",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "a912125c-711b-4802-81cd-97ed54b5d60a",
+        "Name": "OwnerPersonId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "1b55770c-e303-4448-940a-443c00b2aa3f",
+        "Name": "OwnerOrganisationId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "9f011c81-a652-41d2-9241-01eea4479867",
+        "Name": "CurrencyId",
+        "MasterTable": "entpr_Currencies"
+      }
+    ]
+  },
+  {
+    "Id": "38c91aff-afd1-4395-bf4b-19da32c4b4d9",
+    "ClassName": "BankTransaction",
+    "TableName": "entpr_BankTransactions",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "01f55851-f923-492d-b4f0-ffdc9a24db85",
+        "Name": "Reference",
+        "TableName": "BankTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "107cd877-fd0c-4441-a9ce-e5e533d32628",
+        "Name": "Amount",
+        "TableName": "BankTransaction",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "78a903bd-4936-4c37-9269-a5ce55241f0e",
+        "Name": "TransactionDate",
+        "TableName": "BankTransaction",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "249e2337-b3fd-454f-a2ed-f59f03b2129c",
+        "Name": "Balance",
+        "TableName": "BankTransaction",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "bd61b192-1636-4043-b7c2-b05ec1448197",
+        "Name": "AllocationMechanism",
+        "TableName": "BankTransaction",
+        "TypeName": "AllocationMechanism",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "ea628e1d-6766-49d2-9e63-07c9ef6f7984",
+        "Name": "AllocatedDate",
+        "TableName": "BankTransaction",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "182eda3e-4938-4fe3-91f4-a32992878e17",
+        "Name": "AllocationApprovedDate",
+        "TableName": "BankTransaction",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0014acdf-0c26-4fc4-ba58-67388f83c2ac",
+        "Name": "AllocationStatus",
+        "TableName": "BankTransaction",
+        "TypeName": "AllocationStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "62c1010d-1c4c-4690-9bf7-79be460bec05",
+        "Name": "AllocationRejectedComments",
+        "TableName": "BankTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "66ba6cb0-bea5-4522-b699-78dd9471c8f5",
+        "Name": "Comments",
+        "TableName": "BankTransaction",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7351f12a-fc66-449e-8b83-256be3706a14",
+        "Name": "TransactionType",
+        "TableName": "BankTransaction",
+        "TypeName": "TransactionType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "3d31e766-47dc-4942-9fa1-822099d1efaa",
+        "Name": "BankAccountId",
+        "MasterTable": "entpr_BankAccounts"
+      },
+      {
+        "Id": "502494b1-6388-499b-be24-d7a4e5deddd7",
+        "Name": "AllocatedById",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "62018d51-a813-4619-8f87-744ccc18fa2a",
+        "Name": "AllocationApprovedById",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "e9e21216-5fef-4557-881a-0dcbcdafa4c8",
+        "Name": "AllocatedPersonId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "3392a12c-3ed5-4c66-be3a-07cc562b0568",
+        "Name": "AllocatedOrganisationId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "6af2fcca-7b6c-4557-afd6-27c80d048523",
+        "Name": "AllocatedAccountId",
+        "MasterTable": "entpr_FinancialAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "f186f215-737a-4a63-88c0-2d67998fdfd5",
+    "ClassName": "CheckListItemSelection",
+    "TableName": "entpr_CheckListItemSelections",
+    "KeyType": "guid",
+    "EntityType": "FullPowerManyToManyLinkEntity",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "83436592-5385-49c0-905e-050d619d7747",
+        "Name": "Selection",
+        "TableName": "CheckListItemSelection",
+        "TypeName": "CheckListSelectionType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "bb4fe3ff-83e9-4d82-a7dd-3328bd5cbcda",
+        "Name": "Comments",
+        "TableName": "CheckListItemSelection",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "5c0ea033-91f8-4a35-8935-8e2952e73d9e",
+        "Name": "CheckListItemId",
+        "MasterTable": "entpr_CheckListItems"
+      }
+    ]
+  },
+  {
+    "Id": "90b6707d-80d8-402e-80af-b124862bff1a",
+    "ClassName": "CheckListItem",
+    "TableName": "entpr_CheckListItems",
+    "KeyType": "guid",
+    "EntityType": "FullPowerEntity",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "1b740d15-b465-4f1a-b96c-b8c37842cac8",
+        "Name": "OrderIndex",
+        "TableName": "CheckListItem",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "f58dd86d-98a0-48e1-9738-787d9a348e46",
+        "Name": "ItemType",
+        "TableName": "CheckListItem",
+        "TypeName": "CheckListItemType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "410d9553-7129-41ed-bf78-3775501000bf",
+        "Name": "Name",
+        "TableName": "CheckListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "1fa16ffb-62b5-4001-8c88-f77584604275",
+        "Name": "Description",
+        "TableName": "CheckListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "edf8f121-ac34-4080-97e2-fbaf1a9f4274",
+        "Name": "AllowAddComments",
+        "TableName": "CheckListItem",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5cbcc8dd-691f-416a-8e8e-127b28f15e59",
+        "Name": "CommentsHeading",
+        "TableName": "CheckListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "9970631e-dd32-4973-be7d-8b802a8d233d",
+        "Name": "CommentsVisibilityExpression",
+        "TableName": "CheckListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "bc19c37a-42df-421d-baac-6bdea008b077",
+        "Name": "CheckListId",
+        "MasterTable": "entpr_CheckLists"
+      },
+      {
+        "Id": "89646e01-6bda-4909-9e02-59e90776307d",
+        "Name": "ParentId",
+        "MasterTable": "entpr_CheckListItems"
+      }
+    ]
+  },
+  {
+    "Id": "89dde1b9-737f-45c9-bf13-18bd37349f3a",
+    "ClassName": "CheckListTreeItem",
+    "TableName": "entpr_CheckListTreeItems",
+    "KeyType": "guid",
+    "EntityType": "Entity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "7c0d6c93-0f21-4fa3-bdd1-cdb94a1d74dd",
+        "Name": "Name",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ba5dd64c-90bc-4f3e-86e4-2ff05804b839",
+        "Name": "ParentId",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "guid",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "92d48dd4-3235-4294-a43c-005be4317f23",
+        "Name": "HasChilds",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "9ec1d6e0-f284-4d1b-ba18-37a3736217f4",
+        "Name": "OrderIndex",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "31c644db-3ce2-461f-a5f9-de12af6069f6",
+        "Name": "TenantId",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "a661f535-9427-42f2-8c59-63363c6b47b2",
+        "Name": "CheckListId",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "guid",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b9f329b0-b5c1-44f9-b6c8-576b5f70aa01",
+        "Name": "CreationTime",
+        "TableName": "CheckListTreeItem",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "14756c10-4b07-48b6-83c8-204baba31861",
+    "ClassName": "CheckList",
+    "TableName": "entpr_CheckLists",
+    "KeyType": "guid",
+    "EntityType": "FullPowerEntity",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "b6b68258-f97e-4b51-b37b-cb962462ecfd",
+        "Name": "Name",
+        "TableName": "CheckList",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "eaf8da07-8b5a-4879-877a-a1c66b9c3f38",
+        "Name": "Description",
+        "TableName": "CheckList",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "e2f07137-c7a9-49b5-862d-fd8fd052851e",
+    "ClassName": "Contract",
+    "TableName": "entpr_Contracts",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "955043e0-dc1d-46b6-80db-e06ae571ed0c",
+        "Name": "ContractName",
+        "TableName": "Contract",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "f200eb7f-a76a-4281-b094-1308af8db256",
+        "Name": "ContractDescription",
+        "TableName": "Contract",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "54edb674-821f-4fa0-8aef-eb233920d6f1",
+        "Name": "ContractStartDate",
+        "TableName": "Contract",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "d797178d-858f-431c-a64b-10971e77c7fe",
+        "Name": "ContractEndDate",
+        "TableName": "Contract",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "811a5f86-7797-4d8a-b4f1-3b81170201e5",
+        "Name": "Status",
+        "TableName": "Contract",
+        "TypeName": "ContractStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "6ebb5c6a-1476-4105-a8b7-eac5c9b0c2d1",
+        "Name": "ContractValue",
+        "TableName": "Contract",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "67d5ea72-65f1-46b5-b60a-890f73c31c7f",
+        "Name": "InvoicedToDate",
+        "TableName": "Contract",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "99a2e801-e017-47f9-8eb1-78abb460dc13",
+        "Name": "PrimaryContactEmail",
+        "TableName": "Contract",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "4882c68a-3c0b-41bc-9b6e-2eb87db2964c",
+        "Name": "PrimaryContactTelephone",
+        "TableName": "Contract",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "1ebb17f4-79e0-423d-a093-b61033d224b5",
+        "Name": "ContractNumber",
+        "TableName": "Contract",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "12a3ccc1-7b2e-42f5-8874-397220163328",
+        "Name": "SupplierId",
+        "MasterTable": "entpr_Suppliers"
+      }
+    ]
+  },
+  {
+    "Id": "055c551c-deb2-429a-8790-45a891887327",
+    "ClassName": "DistributionListItem",
+    "TableName": "entpr_DistributionListItems",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "a85dc22c-4a08-4ee2-8cb3-88a2e0c64f4b",
+        "Name": "Name",
+        "TableName": "DistributionListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "28370dd9-4805-45e6-acbc-8e198e5537ee",
+        "Name": "Email",
+        "TableName": "DistributionListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "382db1d0-e3f2-4cc5-b354-e46bae309d18",
+        "Name": "CC",
+        "TableName": "DistributionListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0fbdfbad-cfb4-4b24-af43-cde69e2a3960",
+        "Name": "MobileNo",
+        "TableName": "DistributionListItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 20,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2a933c99-672d-4eaa-a9ae-0f9ef5c2cc92",
+        "Name": "Type",
+        "TableName": "DistributionListItem",
+        "TypeName": "DistributionItemType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "4d297d23-be40-4239-bf33-6acfcf682cb0",
+        "Name": "SubType",
+        "TableName": "DistributionListItem",
+        "TypeName": "DistributionItemSubType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "5560ec5d-4840-401b-82bf-0082ef9932d1",
+        "Name": "NotifyByEmail",
+        "TableName": "DistributionListItem",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2aa3d48c-9a59-48ca-8178-1d0ef45a595a",
+        "Name": "NotifyBySms",
+        "TableName": "DistributionListItem",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0406c15e-cb94-48e3-8e9e-07af0279ac91",
+        "Name": "TenantId",
+        "TableName": "DistributionListItem",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "03eeae93-8585-4422-b8fc-494cac35aad5",
+        "Name": "DistributionListId",
+        "MasterTable": "entpr_DistributionLists"
+      },
+      {
+        "Id": "9fafa0ad-ac81-4e5b-9720-06cfbf32e24f",
+        "Name": "PersonId",
+        "MasterTable": "entpr_Employees"
+      },
+      {
+        "Id": "0a969d5d-6a2f-4807-ad88-2333c900e535",
+        "Name": "PostId",
+        "MasterTable": "entpr_OrganisationPosts"
+      },
+      {
+        "Id": "c0358ffd-4466-41f6-bb36-86520963165f",
+        "Name": "ShaRoleId",
+        "MasterTable": "Core_ShaRoles"
+      },
+      {
+        "Id": "b5946352-b3c3-42dc-a86f-fb47d0cce22d",
+        "Name": "PostLevelId",
+        "MasterTable": "entpr_OrganisationPostLevels"
+      }
+    ]
+  },
+  {
+    "Id": "298e5266-e144-4901-8be1-67a14f25bcfb",
+    "ClassName": "DistributionList",
+    "TableName": "entpr_DistributionLists",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "999be9ca-c0ad-44af-8705-bdad1d4fd579",
+        "Name": "Name",
+        "TableName": "DistributionList",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "542e0a3b-52ec-4bde-9843-cac8649e74c5",
+        "Name": "Namespace",
+        "TableName": "DistributionList",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 255,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "d4d3528f-5c2c-46f9-aa03-2b7ebac3a79d",
+        "Name": "TenantId",
+        "TableName": "DistributionList",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "c493b4eb-4a1b-4428-9811-26907e535f18",
+    "ClassName": "Employee",
+    "TableName": "entpr_Employees",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "c4065edf-f42d-4c06-911a-aff50d845432",
+        "Name": "DetailsValidated",
+        "TableName": "Employee",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "acfb5148-6853-4e36-9093-d64f0ae185f8",
+        "Name": "EmployeeNo",
+        "TableName": "Employee",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "75cd9af3-7abe-473f-a723-cac3ef3c66ae",
+        "Name": "SecurityClearanceEndDate",
+        "TableName": "Employee",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "9db5cdd6-fe2c-4d39-b28e-bfecc4e90665",
+        "Name": "OfficeRoomNo",
+        "TableName": "Employee",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5327f9eb-5689-4077-981c-8fceda02c12d",
+        "Name": "HasNoComputer",
+        "TableName": "Employee",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "ba495ec2-779c-4970-aa22-b2a4d18580f9",
+        "Name": "IsShiftWorker",
+        "TableName": "Employee",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "bdd4844e-fe70-4ff3-a457-65e87bb8b8f1",
+        "Name": "SecurityClearance",
+        "TableName": "Employee",
+        "TypeName": "SecurityClassification",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "1211a0ce-533a-45d1-8d93-dba57bc0c4a0",
+        "Name": "SignatureType",
+        "TableName": "Employee",
+        "TypeName": "SignatureType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "9a35b19a-b285-44d3-ad14-8752d341e68a",
+        "Name": "OfficeLocationId",
+        "MasterTable": "Core_Areas"
+      }
+    ]
+  },
+  {
+    "Id": "f597eec4-c0d8-4682-bf4a-286ef6576a79",
+    "ClassName": "HomeUrlAppointment",
+    "TableName": "entpr_HomeUrlAppointments",
+    "KeyType": "guid",
+    "EntityType": "FullPowerEntity",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "4bbc88c4-3943-460c-a153-5980be958d0a",
+        "Name": "HomeUrlId",
+        "TableName": "HomeUrlAppointment",
+        "TypeName": "guid",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5c66ce9b-a6f1-4840-8fc4-086f45eb22a2",
+        "Name": "RoleId",
+        "TableName": "HomeUrlAppointment",
+        "TypeName": "guid",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "352395d4-04a4-451f-9e75-f64dbe9058cc",
+    "ClassName": "HomeUrlRoute",
+    "TableName": "entpr_HomeUrlRoutes",
+    "KeyType": "guid",
+    "EntityType": "FullPowerEntity",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "586e7e09-1b05-44dc-b30a-8a63d7ecb077",
+        "Name": "Roles",
+        "TableName": "HomeUrlRoute",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 2000,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7714b991-6923-45e6-a08d-9a1e2e081c30",
+        "Name": "HomeUrl",
+        "TableName": "HomeUrlRoute",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 1000,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "fe47fa59-0f5e-4959-a60d-d8cd6d16e482",
+        "Name": "OrderIndex",
+        "TableName": "HomeUrlRoute",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "bea56a9d-7916-4028-b432-7b3f94ef4fba",
+        "Name": "AppId",
+        "MasterTable": "Core_FrontEndApps"
+      }
+    ]
+  },
+  {
+    "Id": "33a1ae0c-50ed-4bcd-b7cf-6bd0fa753617",
+    "ClassName": "InvoiceLineItem",
+    "TableName": "entpr_InvoiceLineItems",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "6490d495-c478-4419-a720-65c1f937400f",
+        "Name": "ItemName",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "5b0101cf-69dd-4c02-8b3b-d73a4c59b3f8",
+        "Name": "ItemDescription",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "36495c7e-39c7-4478-aeb3-f04e3a9fc71c",
+        "Name": "Quantity",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "2b343056-c5bc-49cc-a258-80b53a6a4773",
+        "Name": "UnitOfMeasure",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "54aa648c-115e-4e83-ac14-86c6ccf0f9c7",
+        "Name": "UnitPrice",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "8dfb6d03-9e1a-48c1-a624-9a91e237cadb",
+        "Name": "LineItemSubTotal",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "266a5702-411c-45bd-9f36-564f129a0a7f",
+        "Name": "LineItemSubTotalInclTax",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "53eedeaf-8e6a-4317-859d-dbf02ceed0ff",
+        "Name": "LineItemTaxAmount",
+        "TableName": "InvoiceLineItem",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "c62e9414-08cc-43f7-8f0b-f46c5e0b74da",
+        "Name": "InvoiceId",
+        "MasterTable": "entpr_Invoices"
+      },
+      {
+        "Id": "5715b5fb-8315-4d1a-96ae-4bf19bf9b8a4",
+        "Name": "ProductId",
+        "MasterTable": "entpr_Products"
+      }
+    ]
+  },
+  {
+    "Id": "918cd85a-cd98-43c3-9583-22f163ead723",
+    "ClassName": "Invoice",
+    "TableName": "entpr_Invoices",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "be4c936a-bc9c-441e-8f6e-59409298c8a6",
+        "Name": "CellNumber",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "e4dcf153-e053-4525-a5fe-d0211b23dc13",
+        "Name": "TelNumber",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "d8c5b1d4-9bb5-45d6-8704-1107b8ed0425",
+        "Name": "FaxNumber",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "66ac4ea9-0dc7-442c-b498-d3e122b15f95",
+        "Name": "InvoicingPeriodStartDate",
+        "TableName": "Invoice",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "67c0ac31-7593-4e14-9910-7b58d474d80a",
+        "Name": "InvoicingPeriodEndDate",
+        "TableName": "Invoice",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "7552755f-27ea-4321-a2f2-5e1189eadbb4",
+        "Name": "InvoiceDate",
+        "TableName": "Invoice",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "6f169e01-4006-49b9-a58e-3422d47c479b",
+        "Name": "InvoiceTitle",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "69055cc5-c2bf-48ee-ab88-9f04d0e509b5",
+        "Name": "InvoiceDescription",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "21e6e7e2-e69f-4a90-8ab8-88ab99fb6149",
+        "Name": "DueDate",
+        "TableName": "Invoice",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "91fec08c-7d87-4205-a3f2-d283b3c9c468",
+        "Name": "InvoiceNo",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "dc510127-daf2-4840-8450-991e799e3b54",
+        "Name": "PaymentMethod",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "711bbd25-d0e1-4084-b96b-1b35b9e8de98",
+        "Name": "PaymentTerms",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c8c9732a-34ba-42cc-8c5c-8598eca4c2a5",
+        "Name": "VatNumber",
+        "TableName": "Invoice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "230b14e4-9811-4e94-8edc-976eed449073",
+        "Name": "Status",
+        "TableName": "Invoice",
+        "TypeName": "InvoiceStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "bada2061-4073-4c3d-9d67-4f456541fb0d",
+        "Name": "TotalExclTax",
+        "TableName": "Invoice",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "a8f09002-9227-475e-a921-ac1a56e57bfb",
+        "Name": "TaxAmount",
+        "TableName": "Invoice",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "21735509-c149-41fd-a046-34a99eb08d7c",
+        "Name": "TotalInclTax",
+        "TableName": "Invoice",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "780ace7b-bbd8-4247-b062-efee58fcf791",
+        "Name": "InvoiceType",
+        "TableName": "Invoice",
+        "TypeName": "InvoiceType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "169b1c1f-6cd0-4755-ac55-c442e50eabf8",
+        "Name": "ContactPersonId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "169408e2-0356-4abf-8073-a38b3881c543",
+        "Name": "IssuedById",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "897bc25e-3a60-40b3-a394-e4823f19b0ba",
+        "Name": "IssuedToId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "d9d7ca26-bc1f-45be-b488-c03f4034a28e",
+        "Name": "ContractId",
+        "MasterTable": "entpr_Contracts"
+      }
+    ]
+  },
+  {
+    "Id": "49a392ac-0444-4ffc-a43b-4c19ea9165e3",
+    "ClassName": "Order",
+    "TableName": "entpr_Orders",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "711ee70d-6ed4-4f07-9ded-aa902081df55",
+        "Name": "RequisitionNo",
+        "TableName": "Order",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "7c70daeb-564b-4523-ab6e-54f71094a311",
+        "Name": "RefNo",
+        "TableName": "Order",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "24ec7572-f6e7-4a76-8454-675feab5bf2e",
+        "Name": "RequestedCollectionDate",
+        "TableName": "Order",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "59e6c462-c612-4e77-a79c-25b307c837c9",
+        "Name": "ConfirmedCollectionDate",
+        "TableName": "Order",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "c73ebb42-2918-43cf-b80d-ab52ba3f1567",
+        "Name": "Comment",
+        "TableName": "Order",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "63d42351-807d-41ba-b437-19c0e457b8f9",
+        "Name": "Status",
+        "TableName": "Order",
+        "TypeName": "OrderStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "48b103de-d3ae-4769-b246-b4ef672c5ff5",
+        "Name": "RequesterId",
+        "MasterTable": "Core_Persons"
+      },
+      {
+        "Id": "8eae5a8b-2b11-41d8-9deb-02d6fd3080a4",
+        "Name": "ReceiverId",
+        "MasterTable": "Core_Persons"
+      }
+    ]
+  },
+  {
+    "Id": "39332a9c-4a67-476d-bdf4-db38e5c4ebaa",
+    "ClassName": "OrganisationBankAccount",
+    "TableName": "entpr_OrganisationBankAccounts",
+    "KeyType": "guid",
+    "EntityType": "RelationshipEntityBase<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "1ae719cc-a865-4cab-85c5-71dcd9a4ceb4",
+        "Name": "Role",
+        "TableName": "OrganisationBankAccount",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "882d933e-8cba-4eb4-adea-919182ca06d1",
+        "Name": "OrganisationId",
+        "MasterTable": "Core_Organisations"
+      },
+      {
+        "Id": "42258191-ca09-4f05-9f51-8a89ece1da36",
+        "Name": "BankAccountId",
+        "MasterTable": "entpr_BankAccounts"
+      }
+    ]
+  },
+  {
+    "Id": "99877382-6544-4cec-9cf9-871339c2ff92",
+    "ClassName": "OrganisationPostAppointment",
+    "TableName": "entpr_OrganisationPostAppointments",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "4f6edb28-0ceb-48ae-a348-612c328931ad",
+        "Name": "AppointmentStatus",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "AppointmentType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a268bae6-21ec-4132-809f-93e8304b84cb",
+        "Name": "AppointmentStartDate",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "ac927a6f-8311-4191-a583-8744897c360e",
+        "Name": "AppointmentEndDate",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "5624e3e7-4766-435b-9270-2c724880ace4",
+        "Name": "Comment",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a10a4af0-5dc8-4c99-9755-6243adbfb7c6",
+        "Name": "UserHasOpened",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c6df011c-70b4-4bab-bb54-45fbe79c5d80",
+        "Name": "TenantId",
+        "TableName": "OrganisationPostAppointment",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "9a9e38f7-d0fb-4d86-8db6-c0f9daf47fdc",
+        "Name": "OrganisationPostId",
+        "MasterTable": "entpr_OrganisationPosts"
+      },
+      {
+        "Id": "c0634009-6bbf-4845-912a-389972f87e34",
+        "Name": "EmployeeId",
+        "MasterTable": "entpr_Employees"
+      },
+      {
+        "Id": "bcac3b0c-8289-4f08-928a-5ddd01c0b882",
+        "Name": "StoredFileId",
+        "MasterTable": "Core_StoredFiles"
+      }
+    ]
+  },
+  {
+    "Id": "0fd1bd96-616c-4684-aacd-a12236047f9a",
+    "ClassName": "OrganisationPostLevel",
+    "TableName": "entpr_OrganisationPostLevels",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "a75fb4a7-2e5c-4b16-8844-d0a02444adad",
+        "Name": "ShortName",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 30,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "43662a1a-c299-49a4-9b7d-8d10d9377ee7",
+        "Name": "FullName",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "8e31ac38-25e5-4a1c-9146-941542c32da3",
+        "Name": "Description",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 300,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a4227b2a-48c7-4825-9260-ac02c8e3c630",
+        "Name": "SignOffAmount",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "74155687-4153-4845-8109-532f4fbebc91",
+        "Name": "DaysAllowedToRespond",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "2eaf399e-c48e-43a6-ab87-c46e39d53c02",
+        "Name": "RankLevel",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "847f7431-808e-4f3e-88cb-4cd08e46f9ee",
+        "Name": "TenantId",
+        "TableName": "OrganisationPostLevel",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "1159424d-a162-4e36-be83-de2caecca985",
+    "ClassName": "OrganisationPost",
+    "TableName": "entpr_OrganisationPosts",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "6ea7a528-75c9-4bb0-bae3-eba1aef5d73f",
+        "Name": "Name",
+        "TableName": "OrganisationPost",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "9ce88e24-38b0-4b08-8f0a-cd46c628d5e1",
+        "Name": "ShortName",
+        "TableName": "OrganisationPost",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "da375a91-6522-421a-ada2-f6882fd6e0d0",
+        "Name": "PostDiscriminator",
+        "TableName": "OrganisationPost",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c7294c7a-b217-489e-a542-572149a14324",
+        "Name": "IsUnitSupervisor",
+        "TableName": "OrganisationPost",
+        "TypeName": "bool",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "39244f52-7651-4bc0-8e57-37f1b423699d",
+        "Name": "TenantId",
+        "TableName": "OrganisationPost",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "18f1b9a7-e3c2-422f-aa49-1de3b1ae8093",
+        "Name": "OrganisationPostLevelId",
+        "MasterTable": "entpr_OrganisationPostLevels"
+      },
+      {
+        "Id": "5a94bd63-b565-48ad-8481-3eb8653c0312",
+        "Name": "OrganisationUnitId",
+        "MasterTable": "Core_OrganisationUnits"
+      },
+      {
+        "Id": "281fa1a3-06dd-4a0a-92df-6a138b4335e2",
+        "Name": "SupervisorPostId",
+        "MasterTable": "entpr_OrganisationPosts"
+      }
+    ]
+  },
+  {
+    "Id": "813c73f4-dd1f-4699-a9f2-55cdeee4f070",
+    "ClassName": "Product",
+    "TableName": "entpr_Products",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "0f0fe2d8-0fe1-4575-b8b7-113d5e95156b",
+        "Name": "Name",
+        "TableName": "Product",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "452b2d0c-1f67-4ef2-a9bf-68c1b8e5755f",
+        "Name": "Description",
+        "TableName": "Product",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "d51ec8be-79ea-412d-9962-bc3207d6e179",
+        "Name": "ProductCode",
+        "TableName": "Product",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "0d457f03-1841-48cb-91d1-f28e8ebbf5ef",
+        "Name": "DefaultUnitOfMeasure",
+        "TableName": "Product",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "c3cda4cf-3930-428b-a66b-09addaa988c1",
+        "Name": "ProductType",
+        "TableName": "Product",
+        "TypeName": "ProductType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "e51602de-11d0-4bd5-875d-04e5b9449140",
+        "Name": "ProductSubType",
+        "TableName": "Product",
+        "TypeName": "ProductSubType",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "556622fd-38a4-4514-b650-f8ef4742f598",
+        "Name": "WorkDone",
+        "TableName": "Product",
+        "TypeName": "WorkOrderWorkDone",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "1e3e13c7-823b-43ab-9ccb-9a1d5ac4079e",
+        "Name": "DefaultTaxRateId",
+        "MasterTable": "entpr_TaxRates"
+      }
+    ]
+  },
+  {
+    "Id": "c057ac3c-4f9b-4048-ade7-9838b1bfd74d",
+    "ClassName": "PublicHoliday",
+    "TableName": "entpr_PublicHolidays",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "c9e41f17-c2f1-4ded-a34e-78be683d2df8",
+    "ClassName": "Sequence",
+    "TableName": "entpr_Sequences",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "8bdccd2a-6cad-4820-a38f-56d835005564",
+        "Name": "SequenceName",
+        "TableName": "Sequence",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 100,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b01efcb1-2dbb-471c-a891-adb620f51a09",
+        "Name": "SeriesName",
+        "TableName": "Sequence",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 30,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "46f1b7a9-eed6-489e-b532-515eb2543e03",
+        "Name": "LastIssuedNumber",
+        "TableName": "Sequence",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a1175889-ccba-4112-8358-ec0c62bb2e42",
+        "Name": "LastIssuedDate",
+        "TableName": "Sequence",
+        "TypeName": "datetime",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "846bea3e-71b0-4b27-9836-0d2b0facded9",
+    "ClassName": "Service",
+    "TableName": "entpr_Services",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "cd33b91c-4e7d-4a7a-8b6a-b731ba1b6356",
+        "Name": "ServiceName",
+        "TableName": "Service",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 200,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "1165e547-f5ef-41c4-aa00-5aded5e02e32",
+        "Name": "Description",
+        "TableName": "Service",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 300,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "b1cdedaf-27f3-4bdc-8c11-98776994ef2b",
+        "Name": "Comments",
+        "TableName": "Service",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 300,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "a8847b99-5132-455a-a7df-8383f7741f61",
+        "Name": "TenantId",
+        "TableName": "Service",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "40d27edf-5c21-4d0d-ae4f-62eefa3354bf",
+        "Name": "ServiceCategory",
+        "TableName": "Service",
+        "TypeName": "int",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "2ec734af-6f81-40d3-a879-d446ef57c39f",
+    "ClassName": "SupplierPrice",
+    "TableName": "entpr_SupplierPrices",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntityWithExternalSync<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "b0a60fef-8962-4655-933f-db5c4a043dc4",
+        "Name": "Price",
+        "TableName": "SupplierPrice",
+        "TypeName": "decimal",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      },
+      {
+        "Id": "61126501-a36b-4e72-ab37-eef92aea78a3",
+        "Name": "Name",
+        "TableName": "SupplierPrice",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": [
+      {
+        "Id": "0f8693a7-1b1d-4bd1-bd78-b4adcd271360",
+        "Name": "SupplierId",
+        "MasterTable": "entpr_Suppliers"
+      },
+      {
+        "Id": "a2da4b57-0ae6-43fe-a5c0-ffd3720f4a61",
+        "Name": "ContractId",
+        "MasterTable": "entpr_Contracts"
+      },
+      {
+        "Id": "410bb011-3d8d-4bfc-b9a9-84cd26c949e2",
+        "Name": "ProductId",
+        "MasterTable": "entpr_Products"
+      }
+    ]
+  },
+  {
+    "Id": "428e1726-f4aa-4048-aeda-2d344f201a6a",
+    "ClassName": "Supplier",
+    "TableName": "entpr_Suppliers",
+    "KeyType": "guid",
+    "EntityType": null,
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "da3f0c05-5669-4e3a-9ca9-0bf991693f90",
+        "Name": "SupplierNo",
+        "TableName": "Supplier",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": 50,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "406505cd-d116-4862-9b73-487506017a93",
+        "Name": "SupplierStatus",
+        "TableName": "Supplier",
+        "TypeName": "SupplierStatus",
+        "TypeSpecializationId": "85fba0e9-9161-4c85-a603-a229ef312beb",
+        "MaxLength": null,
+        "IsNullable": true,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  }
+]

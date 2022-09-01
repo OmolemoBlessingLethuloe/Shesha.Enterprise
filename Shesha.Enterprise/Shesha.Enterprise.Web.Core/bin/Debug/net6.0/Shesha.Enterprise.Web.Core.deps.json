@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Shesha.Enterprise.Web.Core/1.0.0": {
+        "runtime": {
+          "Shesha.Enterprise.Web.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Shesha.Enterprise.Web.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class id="9968b207-7bd6-42a7-99ab-2437bbc9d078" type="Enum" typeId="85fba0e9-9161-4c85-a603-a229ef312beb">
+  <name>WorkOrderWorkDone</name>
+  <display>WorkOrderWorkDone</display>
+  <isAbstract>false</isAbstract>
+  <sort-children>by-type-then-manually</sort-children>
+  <genericTypes />
+  <isMapped>false</isMapped>
+  <parentFolderId>7274d857-5170-4455-9cb6-7480533f3be6</parentFolderId>
+  <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+  <packageName>Shesha.Enterprise</packageName>
+  <stereotypes>
+    <stereotype stereotypeDefinitionId="d5e8dd12-b371-4fb6-b1ff-b403005b519b" name="Enum Settings">
+      <addedByDefault>true</addedByDefault>
+      <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+      <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+      <properties>
+        <property name="3cacdd96-327f-46df-abdd-c2759c5106fa" display="DataDriven" value="false" isActive="true" />
+      </properties>
+    </stereotype>
+  </stereotypes>
+  <metadata />
+  <childElements>
+    <childElement id="071c0a9e-57be-49c1-b80b-9aefbfc4874f" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>ReplacementOfASplitMeter</name>
+      <display>ReplacementOfASplitMeter = 1</display>
+      <isAbstract>false</isAbstract>
+      <value>1</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="847a5b24-717a-4edc-bd3c-24f785e52f38" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>SplitMeterConversion</name>
+      <display>SplitMeterConversion = 2</display>
+      <isAbstract>false</isAbstract>
+      <value>2</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="4c77a1e7-0053-4f10-8095-f1937d103776" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>CreditToPrepaidMeterRetrofit</name>
+      <display>CreditToPrepaidMeterRetrofit = 4</display>
+      <isAbstract>false</isAbstract>
+      <value>4</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="fe97296e-aec6-49a1-824e-67f28e315bd3" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>KeypadReplacementWiredCommsWires</name>
+      <display>KeypadReplacementWiredCommsWires = 8</display>
+      <isAbstract>false</isAbstract>
+      <value>8</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="0917daf1-ccbb-40bf-b166-95b80c695e6d" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>KeypadReplacementPLCSMART</name>
+      <display>KeypadReplacementPLCSMART = 16</display>
+      <isAbstract>false</isAbstract>
+      <value>16</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="483cf0ba-4443-41e7-af4b-da900b044902" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>MeterReplacementsSinglePhase</name>
+      <display>MeterReplacementsSinglePhase = 32</display>
+      <isAbstract>false</isAbstract>
+      <value>32</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="b39dcec2-fa05-43ce-8985-f91b113bebf9" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>MeterReplacementsThreePhase</name>
+      <display>MeterReplacementsThreePhase = 64</display>
+      <isAbstract>false</isAbstract>
+      <value>64</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="626d89c2-f718-4a30-b1c7-d9fa51ae5733" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>ReplacementOfAFuseBaseAndCarrierWithSimilarOrCircuitBreaker</name>
+      <display>ReplacementOfAFuseBaseAndCarrierWithSimilarOrCircuitBreaker = 128</display>
+      <isAbstract>false</isAbstract>
+      <value>128</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="ff43dd44-b090-4317-9a65-5aa9a1cfe278" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>PLCMeterChanges</name>
+      <display>PLCMeterChanges = 256</display>
+      <isAbstract>false</isAbstract>
+      <value>256</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="a9c94be6-8b0d-4e6d-96a3-8120e3b22799" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>Inspection</name>
+      <display>Inspection = 512</display>
+      <isAbstract>false</isAbstract>
+      <value>512</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="8bafa710-ff83-4983-8320-4a97acaf788c" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>ServiceCableRemovalSCR</name>
+      <display>ServiceCableRemovalSCR = 1024</display>
+      <isAbstract>false</isAbstract>
+      <value>1024</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="bcab9069-b936-4c1c-8903-568e5e24a8f3" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>RemoveAllGearRAG</name>
+      <display>RemoveAllGearRAG = 2048</display>
+      <isAbstract>false</isAbstract>
+      <value>2048</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="40723de7-a63e-4446-9343-ac95d782aa6b" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>RemoveMeter</name>
+      <display>RemoveMeter = 4096</display>
+      <isAbstract>false</isAbstract>
+      <value>4096</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="66fc0fd5-0133-4d0a-acd1-2a0bf011d1a5" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>ReconnectionOHM</name>
+      <display>ReconnectionOHM = 8192</display>
+      <isAbstract>false</isAbstract>
+      <value>8192</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="29e89de4-90c0-4c2e-99e9-8668acae09a9" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>ReconnectionUGM</name>
+      <display>ReconnectionUGM = 16384</display>
+      <isAbstract>false</isAbstract>
+      <value>16384</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="e197afb5-37f5-4747-bd11-4a7ddc05c8b8" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>NormalReconnectionSingleOrThreePhase</name>
+      <display>NormalReconnectionSingleOrThreePhase = 32768</display>
+      <isAbstract>false</isAbstract>
+      <value>32768</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="b43eade0-5b1c-4c45-8999-33a5415ce142" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardReconnectionAtCDUSinglePhase</name>
+      <display>HardReconnectionAtCDUSinglePhase = 65536</display>
+      <isAbstract>false</isAbstract>
+      <value>65536</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="88b81d92-674f-4d7d-92e0-5dd172d56318" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardReconnectionAtCDUThreePhase</name>
+      <display>HardReconnectionAtCDUThreePhase = 131072</display>
+      <isAbstract>false</isAbstract>
+      <value>131072</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="f3184132-22a6-44e3-aa83-0bbf0ce563b6" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardReconnectionAtThePoleSinglePhase</name>
+      <display>HardReconnectionAtThePoleSinglePhase = 262144</display>
+      <isAbstract>false</isAbstract>
+      <value>262144</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="04aae50c-f7d1-4c9c-9847-9256d581e840" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardReconnectionAtThePoleThreePhase</name>
+      <display>HardReconnectionAtThePoleThreePhase = 524288</display>
+      <isAbstract>false</isAbstract>
+      <value>524288</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="764fb420-8402-4e84-b732-93a682facbdd" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>DisconnectionOHM</name>
+      <display>DisconnectionOHM = 1048576</display>
+      <isAbstract>false</isAbstract>
+      <value>1048576</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="aefad2cd-615e-4f73-bb40-9c2d7d823c43" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>DisconnectionUGM</name>
+      <display>DisconnectionUGM = 2097152</display>
+      <isAbstract>false</isAbstract>
+      <value>2097152</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="60c19848-a042-4c48-b721-1ef33bc7e35d" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>NormalDisconnectionSingleOrThreePhase</name>
+      <display>NormalDisconnectionSingleOrThreePhase = 4194304</display>
+      <isAbstract>false</isAbstract>
+      <value>4194304</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="15dd04d8-8c97-4c03-ae1d-6a3fb3d25cc4" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardDisconnectionAtCDUSinglePhase</name>
+      <display>HardDisconnectionAtCDUSinglePhase = 8388608</display>
+      <isAbstract>false</isAbstract>
+      <value>8388608</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="760b8d60-8e75-4de9-bc44-320231651495" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardDisconnectionAtCDUThreePhase</name>
+      <display>HardDisconnectionAtCDUThreePhase = 16777216</display>
+      <isAbstract>false</isAbstract>
+      <value>16777216</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="1f5b5a89-134c-4f00-8c4c-97bb062a037d" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardDisconnectionAtThePoleSinglePhase</name>
+      <display>HardDisconnectionAtThePoleSinglePhase = 33554432</display>
+      <isAbstract>false</isAbstract>
+      <value>33554432</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="45be7b92-0d73-44c6-abc2-06c6b9d952e8" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>HardDisconnectionAtThePoleThreePhase</name>
+      <display>HardDisconnectionAtThePoleThreePhase = 67108864</display>
+      <isAbstract>false</isAbstract>
+      <value>67108864</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="95cdec2e-a6d1-4fde-8786-0ba5e71351a9" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <name>SpecialHardDisconnection</name>
+      <display>SpecialHardDisconnection = 134217728</display>
+      <isAbstract>false</isAbstract>
+      <value>134217728</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="6981983d-8cf8-4722-95b4-ed250f598777" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>KEYPAD Replacement (wired)</comment>
+      <name>KEYPADReplacementWired</name>
+      <display>KEYPADReplacementWired = 268435456</display>
+      <isAbstract>false</isAbstract>
+      <value>268435456</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3c407a74-053d-4276-a328-13d5542be9de" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>KEYPAD Replacement (PLC)</comment>
+      <name>KEYPADReplacementPLC</name>
+      <display>KEYPADReplacementPLC = 536870912</display>
+      <isAbstract>false</isAbstract>
+      <value>536870912</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="86dc88cf-54fc-4b65-818f-a07a502b6055" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Remove P/P Meter</comment>
+      <name>RemovePPMeter</name>
+      <display>RemovePPMeter = 1073741824</display>
+      <isAbstract>false</isAbstract>
+      <value>1073741824</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="3993b095-cddf-45c2-968a-bf2653320187" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Remove Cr Meter</comment>
+      <name>RemoveCrMeter</name>
+      <display>RemoveCrMeter = 2147483648</display>
+      <isAbstract>false</isAbstract>
+      <value>2147483648</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+    <childElement id="b6b99574-9bfb-4c82-a729-111a6fccdf1a" type="Enum-Literal" typeId="4215f417-25d2-4509-9309-5076a1452eaa">
+      <comment>Remove Bypass</comment>
+      <name>RemoveBypass</name>
+      <display>RemoveBypass = 4294967296</display>
+      <isAbstract>false</isAbstract>
+      <value>4294967296</value>
+      <genericTypes />
+      <isMapped>false</isMapped>
+      <parentFolderId>9968b207-7bd6-42a7-99ab-2437bbc9d078</parentFolderId>
+      <packageId>c00dc369-0a24-489e-83bd-00e61af80f83</packageId>
+      <packageName>Shesha.Enterprise</packageName>
+      <stereotypes>
+        <stereotype stereotypeDefinitionId="e3a22b25-1dbd-49f7-88c5-b84df3bb139e" name="EnumLiteral Settings">
+          <addedByDefault>true</addedByDefault>
+          <definitionPackageName>Boxfusion.Modules.Domain</definitionPackageName>
+          <definitionPackageId>adb17c92-23cd-47f7-beeb-99512b09467b</definitionPackageId>
+          <properties>
+            <property name="b3c0583f-bc58-41cc-8065-20c6971d7fb8" display="Index" isActive="true" />
+          </properties>
+        </stereotype>
+      </stereotypes>
+      <metadata />
+      <childElements />
+    </childElement>
+  </childElements>
+</class>

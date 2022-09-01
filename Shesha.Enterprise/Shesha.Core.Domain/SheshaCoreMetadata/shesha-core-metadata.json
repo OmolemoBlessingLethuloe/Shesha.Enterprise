@@ -1,0 +1,53 @@
+[
+  {
+    "Id": "a77ed541-4586-40d5-b938-030fb1f760fb",
+    "ClassName": "NewClass",
+    "TableName": "Core_NewClasses",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [
+      {
+        "Id": "7c0b6804-cc20-46be-8cb1-5e5e82866275",
+        "Name": "attribute",
+        "TableName": "NewClass",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      },
+      {
+        "Id": "2d39e98c-7635-4f48-a155-d7b8108e512d",
+        "Name": "attribute1",
+        "TableName": "NewClass",
+        "TypeName": "string",
+        "TypeSpecializationId": "d4e577cd-ad05-4180-9a2e-fff4ddea0e1e",
+        "MaxLength": null,
+        "IsNullable": false,
+        "IsCollection": false
+      }
+    ],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "2fe3a39f-21ab-48b0-98f3-d5e97a7f8032",
+    "ClassName": "NewClass1",
+    "TableName": "Core_NewClass1s",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": []
+  },
+  {
+    "Id": "4b88477f-c2e2-4001-a82b-aa2672975e5f",
+    "ClassName": "NewClass2",
+    "TableName": "Core_NewClass2s",
+    "KeyType": "guid",
+    "EntityType": "FullAuditedEntity<Guid>",
+    "IsMultiTenant": false,
+    "Columns": [],
+    "ForeignKeys": []
+  }
+]

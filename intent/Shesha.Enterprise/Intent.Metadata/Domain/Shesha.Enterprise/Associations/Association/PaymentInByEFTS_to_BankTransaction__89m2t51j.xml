@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="d0c63d78-9b04-4a0b-a903-c25ecf07f8ca">
+  <sourceEnd id="6af72071-f2b4-42e7-90fc-8a5cd195c7ce" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>PaymentInByEFTS</name>
+    <display>PaymentInByEFTS: PaymentInByEFT[*]</display>
+    <order>17</order>
+    <typeReference id="1d24bde9-4592-4eb0-86a0-22b4cee80fc4">
+      <typeId>dedb4ed2-4e1a-47a8-9fbc-6efdea93255a</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="d0c63d78-9b04-4a0b-a903-c25ecf07f8ca" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>BankTransaction</name>
+    <display>BankTransaction: BankTransaction</display>
+    <order>1</order>
+    <typeReference id="4d645670-ca10-413c-b9f6-bb17955b9721">
+      <typeId>38c91aff-afd1-4395-bf4b-19da32c4b4d9</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

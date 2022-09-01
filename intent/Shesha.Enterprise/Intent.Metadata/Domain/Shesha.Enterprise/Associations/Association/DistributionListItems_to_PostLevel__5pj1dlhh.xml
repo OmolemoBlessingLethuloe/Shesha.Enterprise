@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="b5946352-b3c3-42dc-a86f-fb47d0cce22d">
+  <sourceEnd id="06e43d45-4ea3-46cf-b3f4-871398fd2ea1" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>DistributionListItems</name>
+    <display>DistributionListItems: DistributionListItem[*]</display>
+    <order>7</order>
+    <typeReference id="f199b10b-855d-46b7-8e3f-993da16999fd">
+      <typeId>055c551c-deb2-429a-8790-45a891887327</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="b5946352-b3c3-42dc-a86f-fb47d0cce22d" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>PostLevel</name>
+    <display>PostLevel: OrganisationPostLevel</display>
+    <order>13</order>
+    <typeReference id="96e178c0-dae0-4e4b-90e6-8d8b78faa4b2">
+      <typeId>0fd1bd96-616c-4684-aacd-a12236047f9a</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

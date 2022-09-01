@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\bin\Debug\net6.0\Shesha.Enterprise.Application.deps.json
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\bin\Debug\net6.0\Shesha.Enterprise.Application.dll
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\bin\Debug\net6.0\Shesha.Enterprise.Application.pdb
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.AssemblyInfo.cs
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.dll
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\refint\Shesha.Enterprise.Application.dll
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\Shesha.Enterprise.Application.pdb
+C:\Users\User\source\repos\Shesha.Enterprise\Shesha.Enterprise\Shesha.Enterprise.Application\obj\Debug\net6.0\ref\Shesha.Enterprise.Application.dll

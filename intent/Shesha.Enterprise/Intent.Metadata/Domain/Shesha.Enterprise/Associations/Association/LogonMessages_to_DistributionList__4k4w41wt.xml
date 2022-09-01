@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="087ae241-b4d0-4d28-9b9d-1b5ef160980f">
+  <sourceEnd id="cc374ccf-f97a-49ba-85e6-5d3d2ec3dc39" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>LogonMessages</name>
+    <display>LogonMessages: LogonMessage[*]</display>
+    <order>4</order>
+    <typeReference id="b42af0b5-a4fc-40fe-b3f6-67a45ed3783b">
+      <typeId>b3198063-9644-499b-af26-58e9f97f06b8</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="087ae241-b4d0-4d28-9b9d-1b5ef160980f" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>DistributionList</name>
+    <display>DistributionList: DistributionList</display>
+    <order>7</order>
+    <typeReference id="a764be59-a131-46a8-bac0-ea5441d20b00">
+      <typeId>298e5266-e144-4901-8be1-67a14f25bcfb</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>

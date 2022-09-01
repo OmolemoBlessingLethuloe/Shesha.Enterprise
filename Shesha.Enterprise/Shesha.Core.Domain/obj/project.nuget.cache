@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LapSYo38MHYEUymIZ8t7uEfeRFii8km4IssT+3n/9YUizve65uaLcxuGW6RFdNX6BDaPNWaxRGzcRM6Dom7PFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\Shesha.Enterprise\\Shesha.Enterprise\\Shesha.Core.Domain\\Shesha.Core.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\intent.roslynweaver.attributes\\2.0.1\\intent.roslynweaver.attributes.2.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<association id="8eae5a8b-2b11-41d8-9deb-02d6fd3080a4">
+  <sourceEnd id="4b6a7831-4b42-4426-be17-4797e79114fa" type="Association Source End" typeId="8d9d2e5b-bd55-4f36-9ae4-2b9e84fd4e58">
+    <name>Orders</name>
+    <display>Orders: Order[*]</display>
+    <order>6</order>
+    <typeReference id="029d8ee2-b419-44da-a12b-51000f1f7c77">
+      <typeId>49a392ac-0444-4ffc-a43b-4c19ea9165e3</typeId>
+      <isNavigable>false</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>true</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Enterprise</typePackageName>
+      <typePackageId>c00dc369-0a24-489e-83bd-00e61af80f83</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </sourceEnd>
+  <targetEnd id="8eae5a8b-2b11-41d8-9deb-02d6fd3080a4" type="Association Target End" typeId="0a66489f-30aa-417b-a75d-b945863366fd">
+    <name>Receiver</name>
+    <display>Receiver: Person</display>
+    <order>7</order>
+    <typeReference id="4b9d4d73-e27a-42d5-ac6f-82d463576732">
+      <typeId>0c5ea135-725f-4651-b2f6-d5964e5fe253</typeId>
+      <isNavigable>true</isNavigable>
+      <isNullable>false</isNullable>
+      <isCollection>false</isCollection>
+      <isRequired>true</isRequired>
+      <typePackageName>Shesha.Domain</typePackageName>
+      <typePackageId>9429b641-0f6e-4da5-a76d-6e9d7d34eab8</typePackageId>
+      <stereotypes />
+      <genericTypeParameters />
+    </typeReference>
+    <stereotypes />
+    <metadata />
+  </targetEnd>
+  <associationType>Association</associationType>
+  <associationTypeId>eaf9ed4e-0b61-4ac1-ba88-09f912c12087</associationTypeId>
+  <stereotypes />
+</association>
